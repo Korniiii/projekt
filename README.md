@@ -1,2 +1,3 @@
 # projekt
-projekt zaliczeniowy
+
+projekt zaliczeniowy dla kursu HTML, CSS + Wordpress
