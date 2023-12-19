@@ -6,23 +6,34 @@
     left: -330px;
 }
 
-.box {
-    position: relative;
-    background-color: #4e4e4e;
-    width: 113px;
-height: 29px;
-top: 1880px;
-left: -316px;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .h1 {
+    display: inline-block;
     font-family: Roboto;
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 0em;
     color: #ffffff;
-   
+    width: 113px;
+height: 29px;
+top: 1880px;
+left: -316px;
+padding-left: 14px;
 }
+
+.body {
+    align-content: flex-start;
+}
+.h2 {
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+
+}
+
