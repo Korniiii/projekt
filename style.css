@@ -96,7 +96,7 @@ border-color: #FFFFFF;
 
 .s2 {
     width: 441px;
-    height: 1400px;
+    height: 1140px;
     background: #F1F1F1;
     display: flex;
     flex-direction: column;
@@ -111,7 +111,8 @@ line-height: 42px;
 letter-spacing: 0em;
 text-align: center;
 color: #152D41;
-padding-top: 20px;
+padding-top: 30px;
+padding-bottom: 50px;
 }
 
 .circle-container {
@@ -134,6 +135,7 @@ padding-top: 20px;
     width: 197px;
     height: 197px;
     margin: 0 auto;
+    padding-top: 200px;
 }
 
 .circle2 {
@@ -159,7 +161,25 @@ letter-spacing: 0em;
 text-align: justify;
 padding-left: 30px;
 padding-right: 30px;
+padding-top: 20px;
 color: #000000;
 }
 
+.tekst2 {
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.09px;
+letter-spacing: 0em;
+text-align: justify;
+padding-left: 30px;
+padding-right: 30px;
+color: #000000;
+padding-top: 210px;
+}
+
+.name {
+    padding-bottom: 20px;
+    padding-top: 50px
+}
 
