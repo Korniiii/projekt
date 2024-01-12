@@ -15,19 +15,26 @@
       src="https://kit.fontawesome.com/b54a3b13c1.js"
       crossorigin="anonymous"
     ></script>
-    <div class="container">
-      <header class="header">
-        <div class="box">
-          <h1 class="h1">nazwa firmy</h1>
-        </div>
-        <menu class="menu">o nas oferta kontakt</menu>
-      </header>
-    </div>
   </head>
   <body class="body">
-    <div class="container">
-      <div class="image-container">
-        <div class="overlay"></div>
+    <header class="header">
+      <div class="container">
+        <div class="menu">
+          <div class="box">
+            <h1 class="h1">nazwa firmy</h1>
+          </div>
+          <ul class="lista">
+            <li class="li"><a class="a" href="#about-us">o nas</a></li>
+            <li class="li"><a class="a" href="#offer">oferta</a></li>
+            <li class="li"><a class="a disabled">kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="image-container">
+      <div class="overlay"></div>
+      <div class="container">
         <div class="overlay-text">
           <h2 class="h2">Nasza firma oferuje najwyższej jakości produkty.</h2>
           <h3 class="h3">Nie wierz nam na słowo - sprawdź</h3>
@@ -36,8 +43,8 @@
       </div>
     </div>
 
-    <div class="container">
-      <section class="s2">
+    <section class="s2" id="about-us">
+      <div class="container">
         <div class="h4">Nasi specjaliści</div>
         <div class="circle-container"><div class="circle"></div></div>
         <div class="tekst">
@@ -61,11 +68,11 @@
             lacinia enim, non tincidunt libero ultrices in.
           </p>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
 
-    <div class="container">
-      <section class="s3">
+    <section class="s3" id="offer">
+      <div class="container">
         Czym zajmuje się nasza firma?
         <div class="box">
           <div class="square1"><div class="circle3"></div></div>
@@ -79,17 +86,17 @@
         <div class="square"><h5 class="h5">Usługa 4</h5></div>
         <div class="square"><h5 class="h5">Usługa 5</h5></div>
         <div class="square"><h5 class="h5">Usługa 6</h5></div>
-      </section>
-    </div>
+      </div>
+    </section>
 
-    <div class="container">
-      <footer class="footer">
+    <footer class="footer">
+      <div class="container">
         Nazwa firmy - wszelkie prawa zastrzeżone, 2019
         <div class="logo">
           <div class="fb"><i class="fa-brands fa-instagram"></i></div>
           <div class="ig"><i class="fa-brands fa-square-facebook"></i></div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
