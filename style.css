@@ -209,6 +209,13 @@ padding-bottom: 30px;
     gap: 30px;
 }
 
+.zoom {
+    transition: transform .5s;
+}
+
+.zoom:hover{
+    transform: scale(1.05);
+}
 
 .h5 {
 font-size: 24px;
