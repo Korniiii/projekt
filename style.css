@@ -209,14 +209,6 @@ padding-bottom: 30px;
     gap: 30px;
 }
 
-.zoom {
-    transition: transform .5s;
-}
-
-.zoom:hover{
-    transform: scale(1.05);
-}
-
 .h5 {
 font-size: 24px;
 font-weight: 400;
@@ -238,23 +230,27 @@ text-align: center;
 
 .footer{
 background-color: #4E4E4E;
-height: 50px;
 }
 
 .end {
     display: flex;
-    height: 50px;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
 }
 
-
+.prawa {
+    text-align: center;
+}
 .logo{
     color:#FFFFFF;
 display: flex;
 flex-direction: row;
 font-size: 31px;
+padding-top: 15px;
 }
 
 .ig, .fb {
@@ -313,7 +309,13 @@ font-size: 31px;
     flex-direction: row;
 }
 
+.zoom {
+    transition: transform .5s;
+}
 
+.zoom:hover{
+    transform: scale(1.05);
+}
 }
 
 
