@@ -150,16 +150,17 @@ flex-direction: column;
 }
 
 
-.tekst {
+.tekst, .tekst2{
 font-size: 18px;
 font-weight: 400;
 text-align: justify;
-color: #000000;
+color: black;
 }
 
 .name {
     padding-bottom: 20px;
     padding-top: 30px;
+    color: black;
 }
 
 .s3{
@@ -289,10 +290,12 @@ padding-top: 15px;
 }
 .tekst2 {
     text-align: right;
+    color: #000000;
 }
 
 .tekst {
     text-align: left;
+    color: black;
 }
 
 .firma {
@@ -315,6 +318,10 @@ padding-top: 15px;
 
 .zoom:hover{
     transform: scale(1.05);
+}
+
+.logo {
+    padding-top: 0px;
 }
 }
 
